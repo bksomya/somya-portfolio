@@ -462,3 +462,21 @@ nav ul li a:hover{
     font-size:14px;
     color:#64748b;
 }
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 16px 36px;
+    background: white;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #3b82f6;
+    color: white;
+    transform: translateY(-3px);
+}
