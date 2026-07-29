@@ -516,3 +516,98 @@ nav ul li a:hover{
     line-height:1.8;
     font-size:18px;
 }
+@media (max-width: 768px) {
+
+.hero{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 120px 20px 60px;
+}
+
+.hero-text h1{
+    font-size: 48px;
+}
+
+.hero-text h3{
+    font-size: 24px;
+}
+
+.intro{
+    font-size: 18px;
+    margin: 25px auto;
+}
+
+.hero-image img{
+    width: 260px;
+    height: 260px;
+}
+.create-grid{
+    grid-template-columns: 1fr;
+}
+
+.section-heading h2{
+    font-size: 36px;
+}
+
+.create-card{
+    padding: 28px 22px;
+}
+.gallery-grid{
+    grid-template-columns: 1fr;
+}
+
+.film-grid{
+    grid-template-columns: 1fr;
+}
+
+.gallery-card img{
+    height: 220px;
+}
+
+.film-card video{
+    height: 220px;
+}
+.contact-container{
+    grid-template-columns: 1fr;
+}
+
+.contact{
+    padding:80px 20px;
+}
+
+.footer{
+    padding:50px 20px 30px;
+}
+
+.footer-links{
+    flex-direction:column;
+    gap:18px;
+}
+
+.footer h2{
+    font-size:28px;
+}
+
+.footer p{
+    font-size:16px;
+}
+nav{
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+}
+
+nav ul{
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li a{
+    font-size: 16px;
+}
+
+.logo{
+    font-size: 24px;
+}
+}
